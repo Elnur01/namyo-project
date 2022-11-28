@@ -109,6 +109,10 @@ a:hover {
   color: var(--primary-color);
 }
 
+.instagram a:hover {
+  color: var(--nam-instagram-color);
+}
+
 b,strong {
   font-weight: var(--font-weight-bold);
 }
@@ -391,7 +395,7 @@ b,strong {
 }
 
 .highlight-icon {
-  color: var(--highlight-icon-color);
+  color: var(--white-color);
   font-size: var(--h1-font-size);
   opacity: 0;
   transition: transform 1s;
@@ -404,7 +408,7 @@ b,strong {
 }
 
 .insta{
-  color: var(--nam-instagram-color);
+  color: var(--white-color);
   font-size: var(--h1-font-size);
   opacity: 0;
   transition: transform 1s;
@@ -417,7 +421,7 @@ b,strong {
 }
 
 .twitter{
-  color: var(--nam-instagram-color);
+  color: var(--white-color);
   font-size: var(--h1-font-size);
   opacity: 0;
   transition: transform 1s;
@@ -430,7 +434,7 @@ b,strong {
 }
 
 .highlight-icon:hover {
-  color: var(--white-color);
+  color: var(--highlight-icon-color);
 }
 
 
